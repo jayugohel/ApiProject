@@ -484,7 +484,7 @@ __webpack_require__.r(__webpack_exports__);
 class ApiBoredService {
     constructor(_http) {
         this._http = _http;
-        this.apiLink = 'http://www.boredapi.com/api/activity/';
+        this.apiLink = 'https://www.boredapi.com/api/activity/';
     }
     getBoredFact() {
         return this._http.get(this.apiLink);
